@@ -1,0 +1,48 @@
+{
+  "name": "audiobuffer-to-wav",
+  "version": "1.0.0",
+  "description": "convert an AudioBuffer to .wav format",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Matt DesLauriers",
+    "email": "dave.des@gmail.com",
+    "url": "https://github.com/mattdesl"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "budo": "^7.0.2",
+    "xhr": "^2.2.0"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "start": "budo demo/index.js --live"
+  },
+  "keywords": [
+    "convert",
+    "AudioBuffer",
+    "to",
+    "wav",
+    "format",
+    "for",
+    "browser",
+    "webaudio",
+    "web audio",
+    "audio",
+    "buffer",
+    "conversion",
+    "formats",
+    "fmt",
+    "riff",
+    "wave",
+    "sound"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Jam3/audiobuffer-to-wav.git"
+  },
+  "homepage": "https://github.com/Jam3/audiobuffer-to-wav",
+  "bugs": {
+    "url": "https://github.com/Jam3/audiobuffer-to-wav/issues"
+  }
+}
