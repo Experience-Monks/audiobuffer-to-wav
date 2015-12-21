@@ -1,4 +1,3 @@
-module.exports = audioBufferToWav
 function audioBufferToWav (buffer, opt) {
   opt = opt || {}
 
@@ -92,3 +91,5 @@ function writeString (view, offset, string) {
     view.setUint8(offset + i, string.charCodeAt(i))
   }
 }
+
+if (typeof module !== 'undefined') module.exports = audioBufferToWav
