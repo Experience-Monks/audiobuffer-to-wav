@@ -1,5 +1,4 @@
-module.exports = audioBufferToWav
-function audioBufferToWav (buffer, opt) {
+export default function(buffer, opt) {
   opt = opt || {}
 
   var numChannels = buffer.numberOfChannels
