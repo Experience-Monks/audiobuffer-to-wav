@@ -2,7 +2,7 @@
 // Encodes the audio data as WAV
 // Then triggers a download of the file
 var xhr = require('xhr')
-var bufferToWav = require('../')
+var bufferToWav = require('../dist/index.cjs')
 
 var audioContext = new (window.AudioContext || window.webkitAudioContext)()
 
